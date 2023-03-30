@@ -1,0 +1,206 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    width:100%;
+    height: 96px;
+    /* margin: 0 auto; */
+    background-color: black;
+}
+#logo{
+    float: left;
+    width: auto;
+}
+#logo img{
+    height:96px;
+    float: left;
+    margin-left: 20px;
+}
+/* nút tìm kiếm */
+#input{
+    float: left;
+    margin: 28px;
+    padding: 4px;
+    border-radius: 15px;
+    background-color: white;
+  }
+  header div input[type=text]
+  {
+  border: none;
+  float:left;
+    height:31px;
+    width:300px;
+    font-size:14px;
+  outline: 0;
+    margin-left: 10px;
+  }
+  header div button[type=submit]
+  {
+    border: 0px;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  #timkiem{
+    width: 27px;
+    height: 27px;
+    
+  }
+a.dn{
+    float: right;
+    margin-top: 15px;
+    margin-left:10px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+a.dn img{
+    width: 35px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+#banner{
+    width: 100%;
+}
+nav{
+    clear: both;
+    background-color: #42C2FF;
+    height: 38px;
+    width: 100%;
+    padding: 0px auto;
+}
+nav  ul li{
+    float: left;
+    padding: 10px 30px;
+    list-style: none;
+}
+nav  ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+nav ul{
+    float: left;
+    margin: 0px auto;
+    margin-left: 30%;
+}
+nav  ul li a img{
+    width: 50px;
+}
+nav ul li:hover {
+    background-color: aliceblue;
+}
+article{
+    display:table-row;
+}
+aside#left, aside#right, section{
+    display:table-cell;
+    vertical-align:top;
+    }
+aside#left{
+    width:240px;
+    }
+section{
+    width:1050px;
+    padding:0px 8px;
+}
+div#Sanpham
+{
+	float: left;
+	width: 200px;
+	height: 220px;
+	text-align: center;
+	box-shadow:0 1px 3px rgb(0 0 0 / 30%) ; 
+	padding: 20px;
+	margin: 6px;
+	background-color: white;
+}
+#Sanpham:hover img.Hinhsanpham{
+    transform: scale(1.1);
+    transition:all 0.5s ease;
+}
+#Sanpham a:hover{
+    opacity: 0.6;
+}
+.Hinhsanpham
+{
+	width: 120px;
+	height: 120px;
+	margin-bottom: 20px;
+}
+.gia
+{
+	font-weight: bold;
+	color: red;
+	font-size: 17px;
+}
+aside#right{
+    width:370px;
+}
+aside#right img{
+	width: 150px;
+	margin-right: 10px;
+}
+
+.tintuc{
+	padding: 20px 5px;
+	padding-top: 5px;
+	height: auto;
+	display: flex;
+	text-decoration: none;
+	color: black;
+	border-bottom: solid rgba(0, 0, 0, 0.199) 1px;
+}
+.tintuc:hover{
+    color: red;
+}
+
+aside#left img{
+	width: 150px;
+	margin-right: 10px;
+}
+.chitiet{
+    background-color: red;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.datmua{
+    background-color: #42C2FF;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+div#Sanpham button{
+    border-radius: 4px;
+    border-bottom: 0px;
+    margin: 10px auto;
+}
+.dongia{
+    margin-bottom: 10px;
+}
+div#Sanpham a{
+    color: black;
+}
+/* footer */
+footer{
+    background-color:black;
+    height:100px;
+    width: 100%;
+    margin-top: 10px;
+}
+footer p,footer b{
+color: #42C2FF;
+}
+footer div{
+    float: left;
+    margin-top: 20px;
+    margin-left: 155px;
+    margin-bottom: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #42C2FF;
+}

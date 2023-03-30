@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>GP shop</title>
+        <link rel="stylesheet" href="css/thanhtoan.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="Images/Logo.png" alt="logo">
+            </div>
+            <div id="input">
+                <input type="text" name="tsearch" placeholder="Nhập mã hoặc tên sản phầm...">
+                <button type="submit"><img src="Images/timkiem.png"  alt="" id="timkiem"></button>
+            </div>
+            <a href="login.html" class="dn">
+                <img src="Images/dangnhap.png" id="logodangnhap" >
+                <p>Đăng nhập</p>
+            </a>
+            <a href="dangky.html" class="dn">
+                <img src="Images/dangky.png" id="logodangnhap" >
+                <p>Đăng ký</p>
+            </a>
+            <a href="giohang.html" class="dn">
+                <img src="Images/giohang.jpg" id="logodangnhap" >
+                <p>Giỏ hàng</p>
+            </a>
+            <a href="trangtintuc.html" class="dn">
+                <img src="Images/tintuc.png" id="logodangnhap" >
+                <p>Tin tức</p>
+            </a>
+            <a href="trangchu.html" class="dn">
+                <img src="Images/home.jpg" id="logodangnhap" >
+                <p>Trang chủ</p>
+            </a>
+        </header>
+        <nav>
+                <ul>
+                    <li>
+                        <a href="laptop.html">
+                            Laptop
+                        </a>
+                    </li>
+                    <li>
+                        <a href="manhinh.html">
+                            Màn hình máy tính
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Tai nghe
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Điện thoại
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Bàn phím
+                        </a>
+                    </li>
+                </ul>
+            
+        </nav>
+        <div id="body" >
+          <form action="/action_page.php" method="post">
+              <center><b>NHẬP THÔNG TIN THANH TOÁN</b></center>
+               <div id="sanphamthanhtoan">
+                   <img src="Images/acer-nitro-5-gaming-an515-45-r6ev-r5-5600h-8gb-600x600.png" alt="">
+                   <div>
+                    <p>Laptop acer-nitro-5-gaming-an515-45-r6ev <br> Giá: <span>21.590.000 VNĐ</span></p>
+                    <p>Phí vận chuyển: <span>0 VNĐ</span></p>
+                    <p>Tổng cộng: <span>21.590.000 VNĐ</span></p>
+                   </div>
+                   
+               </div>
+               <b>THÔNG TIN KHÁCH HÀNG</b>
+                <div>
+                    <input type="text" placeholder="Họ và Tên" name="uname" required>
+                    <input type="tel" placeholder="Số điện thoại" name="psw" required>
+                </div>
+              <div>
+                <input type="radio" name="gioitinh" value="nam">Nam
+                <input type="radio" name="gioitinh" value="nu">Nữ
+              </div>
+              <div>
+               <input type="email"  placeholder="Gmail">
+              </div>
+              <div id="diachi">
+                <input type="text" placeholder="Địa chỉ" name="uname" required>
+              </div>
+              <div>
+                  <select name="chontinh" id="">
+                      <option value="binhduong">Bình Dương</option>
+                      <option value="tphochiminh">TP Hồ CHí Minh</option>
+                      <option value="daklak">Đăk lăk</option>
+                  </select>
+              </div>
+              
+
+              <button type="submit" id="thanhtoan">Thanh Toán</button>
+          </form>
+        </div>
+        <footer>
+            <div>
+                <b>Tổng đài hỗ trợ khách hàng(miễn phí)</b>
+                <p>0881234094</p>
+                <p>1909289483</p>
+            </div>
+            <div>
+                <b>Hệ thống của hàng</b>
+                <p>Địa chỉ: 06 Trần Văn Ơn, Phú Hoà, Thủ Dầu Một, Bình Dương</p>
+                <p>thời gian làm việc: từ 8h00 đến 22h00</p>
+            </div>
+            <div>
+                <b>kết nối với cửa hàng qua:</b>
+                <p><a href="#">Facebook: GPshop</a></p>
+                <p>Gmail: GPshop@gmail.com</p>
+            </div> 
+        </footer>
+    </body>
+</html>
